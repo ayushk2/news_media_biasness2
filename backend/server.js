@@ -27,6 +27,5 @@ app.listen(port,()=>
     console.log(`server is running on ${port}`);
     console.log("hi");
     console.log("hello");
-    console.log(uri);
     console.log(port);
 })
