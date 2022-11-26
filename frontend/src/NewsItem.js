@@ -8,7 +8,7 @@ function NewsItem (props)
     const [ratings,setRatings]=useState([])
     async function fetchingdata()
     {
-      const response=  await axios.get(`https://my-project-minor.herokuapp.com/api/good`)
+      const response=  await axios.get(`https://my-news-project.herokuapp.com/api/good`)
       response.data.map((details)=>{
       setUrls(comm=>[...comm,details.url])
        setRatings(rate=>[...rate,details.ratings])})

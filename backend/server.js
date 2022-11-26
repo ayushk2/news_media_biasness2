@@ -8,9 +8,9 @@ if(process.env.NODE_ENV!=="PRODUCTION"){
 require('dotenv').config({path:"backend/config/config.env"});
 }
 const port =process.env.PORT||3005;
-const uri =process.env.ATLAS_URI;
 
-mongoose.connect(uri);
+
+mongoose.connect(process.env.ATLAS_URI);
 const connection= mongoose.connection;
 connection.once('open',()=>
 {

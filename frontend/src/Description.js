@@ -53,10 +53,10 @@ function Description(props)
          if(urls.includes(currentUrl))
      {
             
-             axios.put('https://my-project-minor.herokuapp.com/api/goods',{url:currentUrl,rating:stringRating})
+             axios.put('https://my-news-project.herokuapp.com/api/goods',{url:currentUrl,rating:stringRating})
          }
      else{
-        axios.post('https://my-project-minor.herokuapp.com/api/detailspost',{url:currentUrl,ratings:{ left:ratingarray[0],skewsleft:ratingarray[1],center:ratingarray[2],skewsright:ratingarray[3],right:ratingarray[4]}})
+        axios.post('https://my-news-project.herokuapp.com/api/detailspost',{url:currentUrl,ratings:{ left:ratingarray[0],skewsleft:ratingarray[1],center:ratingarray[2],skewsright:ratingarray[3],right:ratingarray[4]}})
         // }
     }
 }
@@ -68,11 +68,11 @@ function postingComments()
 {
       if(urls.includes(currentUrl))
       {
-        axios.put('https://my-project-minor.herokuapp.com/api/goodss',{url:currentUrl,comments:comments})
+        axios.put('https://my-news-project.herokuapp.com/api/goodss',{url:currentUrl,comments:comments})
       }
       else
       {
-        axios.post('https://my-project-minor.herokuapp.com/api/comments',{url:currentUrl,comments:comments})
+        axios.post('https://my-news-project.herokuapp.com/api/comments',{url:currentUrl,comments:comments})
       }
 }
    console.log('repeating');
