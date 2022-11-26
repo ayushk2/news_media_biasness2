@@ -1,0 +1,35 @@
+.title
+{
+    display:block;
+    text-decoration: none;
+    padding-left:20px;
+    font-family: "Times New Roman";
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+}
+.cleanurl
+{
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color:black;
+    font-weight: bold;
+    margin:10px;
+    padding-left: 20px;
+}
+.story
+{
+    display:flex;
+    margin:10px;
+    padding:20px;
+}
+img{
+    width:150px;
+    height:160px;
+}
+.item
+{
+    border-bottom: 1px solid rgb(184, 180, 180);
+    margin:10px;
+    padding:20px;
+}
