@@ -20,7 +20,7 @@ function App() {
     url: 'https://api.newscatcherapi.com/v2/search',
     params: {q:`${keyword}`, lang: 'en', sort_by: 'relevancy', page: '1',sources:'nytimes.com,thewire.in,swarajyamag.com,theprint.in,organiser.org,ndtv.com,forbes.com,cnn.com,inc.com,abc4.com,indiatimes.co,latestly.com,thehindu.com,firstpost.com,telegraphindia.com,ptinews.com,foxnews.com,indianexpress.com,thestatesman.com,thequint.com,deccanchronicle.com,opindia.com,statetimes.in'},
     headers: {
-      'x-api-key': 'QhouhYP0ctGhV0XkS5b_lnkGJO4_zfTjzR2lRbxqKHE'
+      'x-api-key': '9ptOoTK1hU_a7iUO48nlsG4zYYxGg4lkQkLt8xjYIEw'
      }
      
    }    
